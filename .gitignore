@@ -1,0 +1,50 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+.env
+.venv
+venv/
+env/
+
+# Model checkpoints & weights
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.pkl
+
+# Data folders (raw images, annotations)
+phase1_landmarks/data/
+phase2_cvm/Aariz/
+
+# Output / generated visualizations
+phase1_landmarks/viz_output/
+phase2_cvm/crop_viz_output/
+
+# Project reports
+project reports/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDEs
+.vscode/
+.idea/
+
+# Misc
+*.log
+*.tmp
